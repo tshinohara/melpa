@@ -1,5 +1,4 @@
 (cdb
- :url ":pserver:guest:guest@openlab.jp:/circus/cvsroot"
- :module "skk/main"
- :fetcher cvs
- :files ("cdb.el"))
+ :url "ssh://hg@bitbucket.org/asua/whatever.git"
+ :fetcher git
+ :files ("ddskk-cdb/cdb.el"))
